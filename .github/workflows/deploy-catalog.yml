@@ -10,7 +10,8 @@ permissions:
 
 jobs:
   deploy:
-    uses: giginet/cc-plugin-catalog/.github/workflows/build-pages.yml@v1
+    uses: giginet/cc-plugin-catalog/.github/workflows/build-pages.yml@708943cc40a2c94b7e86569eda5f2efc477674a8
     with:
+      catalog-ref: "708943cc40a2c94b7e86569eda5f2efc477674a8"
       base-url: "https://giginet.me/claude-plugins-official"
       logo: "logo.png"
